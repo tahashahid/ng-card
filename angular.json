@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1,
+  "version": 2,
   "newProjectRoot": "projects",
   "projects": {
     "ng-card": {
@@ -44,5 +44,7 @@
       }
     }
   },
-  "defaultProject": "ng-card"
+  "cli": {
+    "analytics": "f638d2de-8694-4009-ba0f-1e0335b6fc7d"
+  }
 }
